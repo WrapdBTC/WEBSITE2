@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+(function(){
+  try {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || ((window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+})();
+</script>
+<title>Forge — Digital Agency for Web Design &amp; Development</title>
+<meta name="description" content="Forge builds websites, online stores and apps that convert. Consulting in German, English and Croatian. Get in touch for a free consultation.">
+<link rel="canonical" href="https://your-domain-here.com/en/">
+<link rel="alternate" hreflang="de" href="https://your-domain-here.com/">
+<link rel="alternate" hreflang="en" href="https://your-domain-here.com/en/">
+<link rel="alternate" hreflang="hr" href="https://your-domain-here.com/hr/">
+<link rel="alternate" hreflang="x-default" href="https://your-domain-here.com/">
+
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg?v=1784827801">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon.png?v=1784827801">
+<link rel="apple-touch-icon" href="../assets/images/favicon.png?v=1784827801">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Forge">
+<meta property="og:title" content="Forge — Digital Agency for Web Design &amp; Development">
+<meta property="og:description" content="Forge builds websites, online stores and apps that convert. Consulting in German, English and Croatian. Get in touch for a free consultation.">
+<meta property="og:image" content="https://your-domain-here.com/assets/images/og-image.png">
+<meta property="og:url" content="https://your-domain-here.com/en/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Forge — Digital Agency for Web Design &amp; Development">
+<meta name="twitter:description" content="Forge builds websites, online stores and apps that convert. Consulting in German, English and Croatian. Get in touch for a free consultation.">
+<meta name="twitter:image" content="https://your-domain-here.com/assets/images/og-image.png">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0e1a">
+
+<link rel="stylesheet" href="../assets/css/style.css?v=1784827801">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Forge", "url": "https://your-domain-here.com", "email": "hallo@forge-studio.example", "logo": "https://your-domain-here.com/assets/images/favicon.png", "sameAs": []}</script></head>
+<body>
+<div class="scroll-progress" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Forge">
+      <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f46e5"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><rect x="12" y="9" width="5.2" height="22" rx="2.4" fill="#fff"/><rect x="12" y="9" width="15" height="5.2" rx="2.4" fill="#fff"/><rect x="12" y="17.4" width="12" height="5.2" rx="2.4" fill="#fff" opacity=".88"/></svg>
+      <span>Forge</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+<a href="index.html" class="is-active" aria-current="page">Home</a>
+<a href="services.html">Services</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="about.html">About</a>
+<a href="playground.html">Playground</a>
+<a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-icon theme-toggle" type="button" aria-label="Theme umschalten / toggle theme">
+        <span class="icon-sun"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2.5 12h3M18.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+        <span class="icon-moon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/></svg></span>
+      </button>
+      <div class="lang-switch">
+        <button class="lang-switch-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="flag">🇬🇧</span> EN
+        </button>
+        <div class="lang-menu">
+<a href="../index.html"><span class="flag">🇩🇪</span> Deutsch</a>
+<a href="index.html" class="is-active"><span class="flag">🇬🇧</span> English</a>
+<a href="../hr/index.html"><span class="flag">🇭🇷</span> Hrvatski</a>
+        </div>
+      </div>
+      <a class="btn btn-primary btn-sm" href="contact.html">Start a project</a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero-glow hero-glow-1" data-parallax="0.05"></div>
+  <div class="hero-glow hero-glow-2" data-parallax="0.08"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy" data-reveal="left">
+      <span class="eyebrow" style="color:#fff;">Digital Agency for Web &amp; Apps</span>
+      <h1>We build digital products your customers will love.</h1>
+      <p class="lede">Web design, app development, e-commerce and more — conceived, designed and built under one roof. Clear communication, delivered on time.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="contact.html">Free Initial Consultation</a>
+        <a class="btn btn-ghost" href="services.html">View Services</a>
+      </div>
+      <div class="hero-stats">
+<div class="hero-stat">
+          <span class="stat-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg></span>
+<b data-count="3" data-suffix="">0</b>          <span>Languages we work in</span>
+        </div>
+<div class="hero-stat">
+          <span class="stat-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12l4-4 3 2 3-3 4 4 3-3 3 3"/><path d="M5 14l3 3a2 2 0 0 0 3 0l1-1"/><path d="M13 15l2 2a2 2 0 0 0 3 0l3-3"/></svg></span>
+<b>1:1</b>          <span>Dedicated contact, not a ticket queue</span>
+        </div>
+<div class="hero-stat">
+          <span class="stat-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l-2 6 6-2M14 3c3 0 7 4 7 7-3 5-9 11-9 11S6 15 3 10c0-3 4-7 7-7z"/><circle cx="14" cy="10" r="2"/></svg></span>
+<b data-count="100" data-suffix="%">0%</b>          <span>Remote-friendly collaboration</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-panel" data-reveal="right">
+      <div class="floating-badge badge-1"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> DE · EN · HR</div>
+      <div class="hero-panel-browser" aria-hidden="true">
+        <div class="chrome"><i></i><i></i><i></i><div class="url"></div></div>
+        <div class="skeleton">
+          <div class="sk-row w-50"></div>
+          <div class="sk-blocks"><div></div><div></div><div></div></div>
+          <div class="sk-row w-90"></div>
+          <div class="sk-row w-70"></div>
+        </div>
+      </div>
+<div class="hero-panel-row">
+        <div class="hero-panel-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M9 9v11"/></svg></div>
+        <div><b>Design &amp; Development</b><span>Everything in one place, no agency ping-pong</span></div>
+      </div>
+<div class="hero-panel-row">
+        <div class="hero-panel-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg></div>
+        <div><b>Multilingual</b><span>Consulting in German, English &amp; Croatian</span></div>
+      </div>
+<div class="hero-panel-row">
+        <div class="hero-panel-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v12H8l-4 4z"/></svg></div>
+        <div><b>Clear Communication</b><span>Dedicated contacts, transparent process</span></div>
+      </div>
+      <div class="floating-badge badge-2"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l-2 6 6-2M14 3c3 0 7 4 7 7-3 5-9 11-9 11S6 15 3 10c0-3 4-7 7-7z"/><circle cx="14" cy="10" r="2"/></svg> Live in Wochen</div>
+    </div>
+  </div>
+  <div class="section-divider to-white"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,32 C300,70 900,-10 1200,28 L1200,60 L0,60 Z"/></svg></div>
+</section>
+
+<section class="trust-bar">
+  <div class="container trust-bar-inner">
+    <span>What we focus on:</span>
+<span>Web Design</span><span>App Development</span><span>E-Commerce</span><span>SEO</span><span>Branding</span><span>Support &amp; Hosting</span>  </div>
+</section>
+
+<section class="section" id="leistungen">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Services</span>
+      <h2>Everything that moves your digital presence forward</h2>
+      <p class="lede" style="margin:0 auto;">Whether it&#39;s a new website, custom software, or an online store — we support you from the first idea through launch and beyond.</p>
+    </div>
+    <div class="grid grid-3">
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M9 9v11"/></svg></div>
+        <h3>Web Design &amp; Websites</h3>
+        <p>Modern, fast and responsive websites built for conversion.</p>
+        <a class="card-link" href="services.html#webdesign">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 8l-4 4 4 4"/><path d="M15 8l4 4-4 4"/></svg></div>
+        <h3>App &amp; Software Development</h3>
+        <p>Web apps, mobile apps and custom software — clean code that scales.</p>
+        <a class="card-link" href="services.html#entwicklung">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="20" r="1.4" fill="currentColor" stroke="none"/><path d="M2 3h3l2.4 12.2A2 2 0 0 0 9.4 17H18a2 2 0 0 0 2-1.6L21.5 8H6"/></svg></div>
+        <h3>E-Commerce &amp; Online Stores</h3>
+        <p>Storefronts that sell: optimized from product page to checkout.</p>
+        <a class="card-link" href="services.html#ecommerce">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+        <h3>SEO &amp; Content Marketing</h3>
+        <p>Technical SEO, structure and content so people can actually find you.</p>
+        <a class="card-link" href="services.html#seo">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 2-1 2-2 0-.6-.3-1.1-.6-1.5-.3-.4-.5-.8-.5-1.2 0-1 .8-1.8 1.8-1.8H16a4 4 0 0 0 4-4c0-4-3.6-7.5-8-7.5z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="10.5" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></svg></div>
+        <h3>Branding &amp; UI/UX Design</h3>
+        <p>Brand identity and interfaces that build trust and stick in people&#39;s minds.</p>
+        <a class="card-link" href="services.html#branding">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+<div class="card service-card" data-reveal>
+        <div class="card-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13a8 8 0 0 1 16 0"/><rect x="3" y="13" width="4" height="6" rx="1.5"/><rect x="17" y="13" width="4" height="6" rx="1.5"/><path d="M19 19v1a3 3 0 0 1-3 3h-3"/></svg></div>
+        <h3>Maintenance, Support &amp; Hosting</h3>
+        <p>Updates, security and a real point of contact, long after launch.</p>
+        <a class="card-link" href="services.html#support">Learn more <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="blob blob-primary" style="width:420px;height:420px;top:-120px;left:-140px;"></div>
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Why Forge</span>
+      <h2>A digital agency you can shake hands with</h2>
+      <p class="lede" style="margin:0 auto;">We combine clean craft with direct, honest communication.</p>
+    </div>
+    <div class="grid grid-4">
+<div class="usp-item" data-reveal>
+        <div class="usp-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l-2 6 6-2M14 3c3 0 7 4 7 7-3 5-9 11-9 11S6 15 3 10c0-3 4-7 7-7z"/><circle cx="14" cy="10" r="2"/></svg></div>
+        <div><h3>Efficient &amp; fast</h3><p>Lean processes instead of months of back-and-forth.</p></div>
+      </div>
+<div class="usp-item" data-reveal>
+        <div class="usp-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <div><h3>Transparent</h3><p>Clear proposals, clear timelines, no hidden costs.</p></div>
+      </div>
+<div class="usp-item" data-reveal>
+        <div class="usp-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 3l1.5 4L17 8.5 13 10l-1.5 4L10 10 6 8.5 10 7z"/><path d="M18 14l.8 2.2L21 17l-2.2.8L18 20l-.8-2.2L15 17l2.2-.8z"/></svg></div>
+        <div><h3>Modern technology</h3><p>Current, future-proof technology instead of quick hacks.</p></div>
+      </div>
+<div class="usp-item" data-reveal>
+        <div class="usp-icon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13a8 8 0 0 1 16 0"/><rect x="3" y="13" width="4" height="6" rx="1.5"/><rect x="17" y="13" width="4" height="6" rx="1.5"/><path d="M19 19v1a3 3 0 0 1-3 3h-3"/></svg></div>
+        <div><h3>Personal support</h3><p>One dedicated contact, not an anonymous ticket system.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Process</span>
+      <h2>How a project with us works</h2>
+      <p class="lede" style="margin:0 auto;">Four clear steps, full transparency — from first idea to go-live.</p>
+    </div>
+    <div class="process-grid">
+<div class="process-step" data-reveal>
+        <span class="num">1</span>
+        <h3>Discovery &amp; Analysis</h3>
+        <p>We clarify goals, target audience and requirements in a no-obligation conversation.</p>
+        <span class="chevron"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+      </div>
+<div class="process-step" data-reveal>
+        <span class="num">2</span>
+        <h3>Concept &amp; Design</h3>
+        <p>You receive a concept and initial design drafts to review.</p>
+        <span class="chevron"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+      </div>
+<div class="process-step" data-reveal>
+        <span class="num">3</span>
+        <h3>Development &amp; Testing</h3>
+        <p>Built in short cycles with regular check-ins and testing.</p>
+        <span class="chevron"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+      </div>
+<div class="process-step" data-reveal>
+        <span class="num">4</span>
+        <h3>Launch &amp; Support</h3>
+        <p>We go live and stay by your side afterward for maintenance and further development.</p>
+        <span class="chevron"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="blob blob-accent" style="width:380px;height:380px;bottom:-140px;right:-120px;"></div>
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Project Examples</span>
+      <h2>Here&#39;s what your project could look like</h2>
+      <p class="lede" style="margin:0 auto;">A selection of typical projects to give you a feel for our work.</p>
+    </div>
+    <div class="grid grid-3">
+<div class="portfolio-card" data-reveal>
+        <div class="portfolio-thumb">
+          <span class="cat">Example project</span>
+          <div class="mock-chrome"><i></i><i></i><i></i><div class="url"></div></div>
+          <div class="mock-body">
+            <div class="mock-side"><div></div><div></div><div></div><div></div></div>
+            <div class="mock-main">
+              <div class="mock-hero"></div>
+              <div class="mock-line w-60"></div>
+              <div class="mock-grid"><div></div><div></div><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>E-Commerce Relaunch — Fashion Retail</h3>
+          <p>Modernizing an existing online store with a focus on mobile use.</p>
+          <div class="portfolio-meta">
+            <span class="chip">Headless commerce</span>
+            <span class="chip">Technical focus</span>
+          </div>
+        </div>
+      </div>
+<div class="portfolio-card" data-reveal>
+        <div class="portfolio-thumb">
+          <span class="cat">Example project</span>
+          <div class="mock-chrome"><i></i><i></i><i></i><div class="url"></div></div>
+          <div class="mock-body">
+            <div class="mock-side"><div></div><div></div><div></div><div></div></div>
+            <div class="mock-main">
+              <div class="mock-hero"></div>
+              <div class="mock-line w-60"></div>
+              <div class="mock-grid"><div></div><div></div><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Booking App — Service Business</h3>
+          <p>Web app for appointment booking with calendar sync and reminders.</p>
+          <div class="portfolio-meta">
+            <span class="chip">iOS · Android · Web</span>
+            <span class="chip">Platforms</span>
+          </div>
+        </div>
+      </div>
+<div class="portfolio-card" data-reveal>
+        <div class="portfolio-thumb">
+          <span class="cat">Example project</span>
+          <div class="mock-chrome"><i></i><i></i><i></i><div class="url"></div></div>
+          <div class="mock-body">
+            <div class="mock-side"><div></div><div></div><div></div><div></div></div>
+            <div class="mock-main">
+              <div class="mock-hero"></div>
+              <div class="mock-line w-60"></div>
+              <div class="mock-grid"><div></div><div></div><div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-body">
+          <h3>Corporate Website — Consulting Firm</h3>
+          <p>Multilingual company site focused on leads and SEO.</p>
+          <div class="portfolio-meta">
+            <span class="chip">DE · EN · HR</span>
+            <span class="chip">Languages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:40px;" data-reveal>
+      <a class="btn btn-ghost" href="portfolio.html">See all project examples</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width: 900px;">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Just for fun</span>
+      <h2>A small proof of what we can build</h2>
+      <p class="lede" style="margin:0 auto;">No stock photos, no buzzwords — try it yourself: a quick round of Snake, built with pure vanilla JavaScript and Canvas, with a leaderboard saved right on this device.</p>
+    </div>
+    <div class="game-wrap" data-reveal data-forge-game data-height="300"
+         data-leaderboard-key="forge_snake_leaderboard"
+         data-leaderboard-empty="No entries yet — be the first!"
+         data-rank-prefix="Rank"
+         data-initials-placeholder="ABC"
+         data-paused-label="Paused">
+      <div class="game-stage">
+      <canvas class="game-canvas" tabindex="0" aria-label="Snake game, steer with the arrow keys"></canvas>
+      <div class="game-hud">
+        <span>Score: <span class="game-score-value">0</span></span>
+        <span>Best: <span class="game-best-value">0</span></span>
+      </div>
+      <div class="game-overlay game-overlay-start is-active">
+        <div class="game-panel">
+          <h3>Ready?</h3>
+          <p>Arrow keys, WASD, or swipe to steer. Collect sparks, grab power-ups — just don&#39;t bite your own tail!</p>
+          <button class="btn btn-primary game-start-btn" type="button">Start game</button>
+        </div>
+      </div>
+      <div class="game-overlay game-overlay-over">
+        <div class="game-panel">
+          <h3>Game Over</h3>
+          <span class="game-new-best">New best score! 🎉</span>
+          <div class="game-score-row">
+            <div><b class="game-final-score-value">0</b><span>Score</span></div>
+            <div><b class="game-best-value">0</b><span>Best</span></div>
+          </div>
+          <div class="game-initials-form">
+            <p class="game-initials-prompt">New high score! Your initials:</p>
+            <div class="game-initials-row">
+              <input class="game-initials-input" type="text" maxlength="3" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABC" aria-label="ABC">
+              <button class="btn btn-primary btn-sm game-save-score-btn" type="button">Save</button>
+            </div>
+          </div>
+          <div class="game-leaderboard">
+            <p class="game-leaderboard-title">Leaderboard (this device)</p>
+            <ol class="game-leaderboard-list"></ol>
+          </div>
+          <button class="btn btn-ghost game-restart-btn" type="button">Play again</button>
+        </div>
+      </div>
+      </div>
+      <div class="game-controls">
+        <button class="game-sound-btn" type="button"
+                aria-label="Mute sound"
+                data-on-aria="Mute sound"
+                data-off-aria="Unmute sound">
+          <span class="icon-on"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z"/><path d="M16.4 8.6a5 5 0 0 1 0 6.8"/><path d="M19.2 6a9 9 0 0 1 0 12"/></svg></span>
+          <span class="icon-off"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z"/><path d="M16 9l6 6M22 9l-6 6"/></svg></span>
+        </button>
+        <div class="game-dpad" aria-hidden="true">
+          <button class="game-dpad-btn dpad-up" data-dir="up" type="button"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          <button class="game-dpad-btn dpad-left" data-dir="left" type="button"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          <button class="game-dpad-btn dpad-right" data-dir="right" type="button"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          <button class="game-dpad-btn dpad-down" data-dir="down" type="button"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:24px;" data-reveal>
+      <a class="btn btn-ghost" href="playground.html">Play fullscreen <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Testimonials</span>
+      <h2>What clients could say about working with us</h2>
+    </div>
+    <div class="grid grid-3">
+<div class="testimonial" data-reveal>
+        <div class="stars"><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg></div>
+        <p class="quote">&ldquo;Clear communication, clean execution, and always reachable when we had questions.&rdquo;</p>
+        <div class="testimonial-person">
+          <div class="avatar">JM</div>
+          <div><b>J. Marić</b><span>Owner, Fashion Retailer</span></div>
+        </div>
+      </div>
+<div class="testimonial" data-reveal>
+        <div class="stars"><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg></div>
+        <p class="quote">&ldquo;Finally an agency that explains technical decisions instead of just billing for them.&rdquo;</p>
+        <div class="testimonial-person">
+          <div class="avatar">TN</div>
+          <div><b>T. Novak</b><span>Founder, Startup</span></div>
+        </div>
+      </div>
+<div class="testimonial" data-reveal>
+        <div class="stars"><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg><svg class="icon " viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.7 1.5 6.8L12 17l-6.1 3.5 1.5-6.8L2.2 9l6.9-.7z"/></svg></div>
+        <p class="quote">&ldquo;The new site noticeably improved the quality of our inbound inquiries.&rdquo;</p>
+        <div class="testimonial-person">
+          <div class="avatar">SB</div>
+          <div><b>S. Berger</b><span>Managing Director, Consulting</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="section-note" data-reveal>Note: illustrative example quotes — please replace with real client feedback before launch.</p>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Frequently Asked Questions</span>
+      <h2>Questions we hear often</h2>
+    </div>
+    <div class="faq-list" data-reveal>
+<div class="faq-item">
+        <button class="faq-q" type="button">How does collaboration work if we&#39;re not in the same location? <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">We work remote-first: video calls, shared project boards and regular updates keep you in the loop at all times — whether you&#39;re based in the DACH region, the Balkans, or anywhere else.</div></div>
+      </div>
+<div class="faq-item">
+        <button class="faq-q" type="button">What does a new website or app cost? <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">It depends heavily on scope. After our initial conversation, you&#39;ll receive a transparent, no-obligation quote with a clear scope and timeline.</div></div>
+      </div>
+<div class="faq-item">
+        <button class="faq-q" type="button">How long does a typical project take? <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">A website is often achievable in 3-6 weeks; more complex web apps or stores naturally take longer. We define the exact timeline together in the proposal.</div></div>
+      </div>
+<div class="faq-item">
+        <button class="faq-q" type="button">Do you also handle maintenance after launch? <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. We offer ongoing maintenance, updates and support packages so your website or app stays secure and current long-term.</div></div>
+      </div>
+<div class="faq-item">
+        <button class="faq-q" type="button">Which languages do you consult in? <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><div class="faq-a-inner">We support projects in German, English and Croatian — whichever you prefer.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band" data-reveal>
+      <h2>Ready for your next digital project?</h2>
+      <p class="lede" style="margin:0 auto 28px;">Let&#39;s find out in a free initial conversation how we can support you.</p>
+      <div class="hero-cta" style="justify-content:center;">
+        <a class="btn btn-primary" href="contact.html">Get in touch now</a>
+        <a class="btn btn-ghost" href="about.html">Learn more about us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f46e5"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><rect x="12" y="9" width="5.2" height="22" rx="2.4" fill="#fff"/><rect x="12" y="9" width="15" height="5.2" rx="2.4" fill="#fff"/><rect x="12" y="17.4" width="12" height="5.2" rx="2.4" fill="#fff" opacity=".88"/></svg><span>Forge</span></a>
+        <p style="max-width:32ch; font-size:14.5px;">Digital agency for web design, software development and everything in between. We work in German, English and Croatian.</p>
+        <div class="footer-social" aria-hidden="false">
+          <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="playground.html">Playground</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+<li><a href="services.html#webdesign">Web Design &amp; Websites</a></li>
+<li><a href="services.html#entwicklung">App &amp; Software Development</a></li>
+<li><a href="services.html#ecommerce">E-Commerce &amp; Online Stores</a></li>
+<li><a href="services.html#seo">SEO &amp; Content Marketing</a></li>
+<li><a href="services.html#branding">Branding &amp; UI/UX Design</a></li>
+<li><a href="services.html#support">Maintenance, Support &amp; Hosting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hallo@forge-studio.example">hallo@forge-studio.example</a></li>
+          <li><a href="tel:+49301234567">+49 30 1234 567</a></li>
+          <li>Musterstadt, Deutschland</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Forge. All rights reserved.</span>
+      <div class="flex gap-10">
+        <a href="legal-notice.html">Legal Notice</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<button class="dev-toggle" type="button" aria-label="Show technical details" aria-expanded="false">
+  <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 8l-4 4 4 4"/><path d="M15 8l4 4-4 4"/></svg>
+</button>
+<div class="dev-panel" aria-hidden="true">
+  <div class="dev-panel-inner">
+    <div class="dev-panel-head">
+      <span class="dev-dot"></span><span class="dev-dot"></span><span class="dev-dot"></span>
+      <b>Under the hood</b>
+      <button type="button" class="dev-panel-close" aria-label="Close"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+    </div>
+    <ul class="dev-stats">
+      <li><span>HTTP requests</span><b class="dev-stat-requests">–</b></li>
+      <li><span>Page weight</span><b class="dev-stat-weight">–</b></li>
+      <li><span>Load time</span><b class="dev-stat-load">–</b></li>
+      <li><span>External trackers</span><b>0</b></li>
+      <li><span>Tech stack</span><b>Vanilla JS</b></li>
+      <li><span>Languages</span><b>DE · EN · HR</b></li>
+      <li><span>Build</span><b>#1784827801</b></li>
+    </ul>
+    <p class="dev-panel-note">Measured live for this page — no marketing fluff.</p>
+  </div>
+</div>
+
+<script src="../assets/js/main.js?v=1784827801"></script>
+<script src="../assets/js/game.js?v=1784827801"></script></body>
+</html>

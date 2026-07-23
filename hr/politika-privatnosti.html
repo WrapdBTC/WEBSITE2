@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+(function(){
+  try {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || ((window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+})();
+</script>
+<title>Politika privatnosti | Forge</title>
+<meta name="description" content="Informacije o obradi osobnih podataka na ovoj web stranici u skladu s Općom uredbom o zaštiti podataka (GDPR).">
+<link rel="canonical" href="https://your-domain-here.com/hr/politika-privatnosti.html">
+<link rel="alternate" hreflang="de" href="https://your-domain-here.com/datenschutz.html">
+<link rel="alternate" hreflang="en" href="https://your-domain-here.com/en/privacy-policy.html">
+<link rel="alternate" hreflang="hr" href="https://your-domain-here.com/hr/politika-privatnosti.html">
+<link rel="alternate" hreflang="x-default" href="https://your-domain-here.com/datenschutz.html">
+
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg?v=1784827801">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon.png?v=1784827801">
+<link rel="apple-touch-icon" href="../assets/images/favicon.png?v=1784827801">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Forge">
+<meta property="og:title" content="Politika privatnosti | Forge">
+<meta property="og:description" content="Informacije o obradi osobnih podataka na ovoj web stranici u skladu s Općom uredbom o zaštiti podataka (GDPR).">
+<meta property="og:image" content="https://your-domain-here.com/assets/images/og-image.png">
+<meta property="og:url" content="https://your-domain-here.com/hr/politika-privatnosti.html">
+<meta property="og:locale" content="hr_HR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Politika privatnosti | Forge">
+<meta name="twitter:description" content="Informacije o obradi osobnih podataka na ovoj web stranici u skladu s Općom uredbom o zaštiti podataka (GDPR).">
+<meta name="twitter:image" content="https://your-domain-here.com/assets/images/og-image.png">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0e1a">
+
+<link rel="stylesheet" href="../assets/css/style.css?v=1784827801">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Forge", "url": "https://your-domain-here.com", "email": "hallo@forge-studio.example", "logo": "https://your-domain-here.com/assets/images/favicon.png", "sameAs": []}</script></head>
+<body>
+<div class="scroll-progress" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Forge">
+      <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f46e5"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><rect x="12" y="9" width="5.2" height="22" rx="2.4" fill="#fff"/><rect x="12" y="9" width="15" height="5.2" rx="2.4" fill="#fff"/><rect x="12" y="17.4" width="12" height="5.2" rx="2.4" fill="#fff" opacity=".88"/></svg>
+      <span>Forge</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Glavna navigacija">
+<a href="index.html">Početna</a>
+<a href="usluge.html">Usluge</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="o-nama.html">O nama</a>
+<a href="igra.html">Playground</a>
+<a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-icon theme-toggle" type="button" aria-label="Theme umschalten / toggle theme">
+        <span class="icon-sun"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2.5 12h3M18.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+        <span class="icon-moon"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/></svg></span>
+      </button>
+      <div class="lang-switch">
+        <button class="lang-switch-btn" type="button" aria-haspopup="true" aria-expanded="false">
+          <span class="flag">🇭🇷</span> HR
+        </button>
+        <div class="lang-menu">
+<a href="../datenschutz.html"><span class="flag">🇩🇪</span> Deutsch</a>
+<a href="../en/privacy-policy.html"><span class="flag">🇬🇧</span> English</a>
+<a href="politika-privatnosti.html" class="is-active"><span class="flag">🇭🇷</span> Hrvatski</a>
+        </div>
+      </div>
+      <a class="btn btn-primary btn-sm" href="kontakt.html">Pokreni projekt</a>
+      <button class="nav-toggle" type="button" aria-label="Izbornik" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero" style="padding-bottom:40px;">
+  <div class="container">
+    <div class="breadcrumbs" style="color:rgba(255,255,255,.6);"><a href="index.html" style="color:rgba(255,255,255,.8);">Početna</a> / Politika privatnosti</div>
+    <h1 style="font-size: clamp(1.9rem, 3.5vw, 2.6rem);">Politika privatnosti</h1>
+  </div>
+  <div class="section-divider to-white"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,32 C300,70 900,-10 1200,28 L1200,60 L0,60 Z"/></svg></div>
+</section>
+
+<section class="section">
+  <div class="container legal-content" style="max-width: 820px;">
+    
+<p>Zahvaljujemo na interesu za ovu internetsku stranicu. Zaštita vaših osobnih podataka nam je važna. U nastavku vas informiramo o
+obradi osobnih podataka prilikom korištenja ove stranice sukladno Općoj uredbi o zaštiti podataka (GDPR).</p>
+
+<h2>1. Voditelj obrade</h2>
+<p>
+Voditelj obrade u smislu GDPR-a je:<br>
+<span class="placeholder">[Puno ime / naziv tvrtke]</span><br>
+<span class="placeholder">[Adresa]</span><br>
+E-mail: <span class="placeholder">[E-mail adresa]</span>
+</p>
+
+<h2>2. Hosting ove stranice</h2>
+<p>Ova stranica hostirana je putem GitHub Pages, usluge tvrtke GitHub, Inc. (odnosno GitHub B.V. za korisnike u EU). Prilikom posjeta
+ovoj stranici pružatelj hostinga automatski obrađuje tehničke podatke poput IP adrese, datuma i vremena pristupa, korištenog
+preglednika te zatražene stranice (log datoteke poslužitelja). Ova obrada temelji se na našem legitimnom interesu za sigurno i
+funkcionalno pružanje stranice (čl. 6. st. 1. t. f GDPR-a). Više informacija dostupno je u
+<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub-ovoj izjavi o privatnosti</a>.</p>
+
+<h2>3. Kolačići i praćenje</h2>
+<p>Ova stranica <strong>ne</strong> koristi analitičke ili kolačiće za praćenje te ne ugrađuje oglasne ili usluge društvenih mreža koje
+postavljaju kolačiće. Ne izrađuju se korisnički profili.</p>
+
+<h2>4. Kontakt obrazac</h2>
+<p>Ako koristite kontakt obrazac na ovoj stranici, podaci koje unesete (npr. ime, e-mail adresa, poruka) obrađuju se radi rješavanja
+vašeg upita (čl. 6. st. 1. t. b GDPR-a). Slanje se obrađuje putem usluge obrasca
+<span class="placeholder">[npr. Formspree ili usporediva usluga]</span>. Molimo dopunite ovaj dio sa stvarno korištenim pružateljem
+usluge te, ako je potrebno, sklopite ugovor o obradi podataka (DPA). Alternativno, možete nas kontaktirati izravno putem e-maila, u
+kojem slučaju obrađujemo vaše podatke radi rješavanja upita.</p>
+
+<h2>5. Vanjski fontovi i resursi</h2>
+<p>Ova stranica koristi isključivo sistemske fontove i ne ugrađuje vanjske fontove (npr. Google Fonts) ni druge resurse trećih strana
+koji bi mogli izazvati prijenos podataka trećim stranama.</p>
+
+<h2>6. Vaša prava</h2>
+<p>U skladu s važećim propisima, u svakom trenutku imate pravo na besplatnu informaciju o svojim pohranjenim osobnim podacima,
+njihovom podrijetlu i primateljima te svrsi obrade, kao i pravo na ispravak, ograničenje obrade ili brisanje tih podataka. Također
+imate pravo podnijeti pritužbu nadležnom nadzornom tijelu.</p>
+<ul>
+<li>Pravo na pristup (čl. 15. GDPR-a)</li>
+<li>Pravo na ispravak (čl. 16. GDPR-a)</li>
+<li>Pravo na brisanje (čl. 17. GDPR-a)</li>
+<li>Pravo na ograničenje obrade (čl. 18. GDPR-a)</li>
+<li>Pravo na prenosivost podataka (čl. 20. GDPR-a)</li>
+<li>Pravo na prigovor (čl. 21. GDPR-a)</li>
+</ul>
+
+<h2>7. Kontakt za pitanja o privatnosti</h2>
+<p>Za pitanja vezana uz zaštitu podataka dostupni smo na <span class="placeholder">[E-mail adresa]</span>.</p>
+
+<p style="margin-top:2em;"><em>Napomena: ovaj predložak ne predstavlja pravni savjet. Prilagodite politiku privatnosti stvarno
+korištenim uslugama (npr. pružatelj obrasca, alati za analitiku) i dajte je na pravnu provjeru ovisno o vašoj jurisdikciji.</em></p>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f46e5"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><rect x="12" y="9" width="5.2" height="22" rx="2.4" fill="#fff"/><rect x="12" y="9" width="15" height="5.2" rx="2.4" fill="#fff"/><rect x="12" y="17.4" width="12" height="5.2" rx="2.4" fill="#fff" opacity=".88"/></svg><span>Forge</span></a>
+        <p style="max-width:32ch; font-size:14.5px;">Digitalna agencija za web dizajn, razvoj softvera i sve između. Komunikacija na njemačkom, engleskom i hrvatskom jeziku.</p>
+        <div class="footer-social" aria-hidden="false">
+          <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigacija</h4>
+        <ul>
+<li><a href="index.html">Početna</a></li>
+<li><a href="usluge.html">Usluge</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="o-nama.html">O nama</a></li>
+<li><a href="igra.html">Playground</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Usluge</h4>
+        <ul>
+<li><a href="usluge.html#webdesign">Web dizajn i internetske stranice</a></li>
+<li><a href="usluge.html#entwicklung">Razvoj aplikacija i softvera</a></li>
+<li><a href="usluge.html#ecommerce">E-trgovina i online shopovi</a></li>
+<li><a href="usluge.html#seo">SEO i content marketing</a></li>
+<li><a href="usluge.html#branding">Branding i UI/UX dizajn</a></li>
+<li><a href="usluge.html#support">Održavanje, podrška i hosting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:hallo@forge-studio.example">hallo@forge-studio.example</a></li>
+          <li><a href="tel:+49301234567">+49 30 1234 567</a></li>
+          <li>Musterstadt, Deutschland</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Forge. Sva prava pridržana.</span>
+      <div class="flex gap-10">
+        <a href="impresum.html">Impresum</a>
+        <a href="politika-privatnosti.html">Politika privatnosti</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" type="button" aria-label="Povratak na vrh">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<button class="dev-toggle" type="button" aria-label="Prikaži tehničke detalje" aria-expanded="false">
+  <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 8l-4 4 4 4"/><path d="M15 8l4 4-4 4"/></svg>
+</button>
+<div class="dev-panel" aria-hidden="true">
+  <div class="dev-panel-inner">
+    <div class="dev-panel-head">
+      <span class="dev-dot"></span><span class="dev-dot"></span><span class="dev-dot"></span>
+      <b>Ispod haube</b>
+      <button type="button" class="dev-panel-close" aria-label="Zatvori"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+    </div>
+    <ul class="dev-stats">
+      <li><span>HTTP zahtjevi</span><b class="dev-stat-requests">–</b></li>
+      <li><span>Veličina stranice</span><b class="dev-stat-weight">–</b></li>
+      <li><span>Vrijeme učitavanja</span><b class="dev-stat-load">–</b></li>
+      <li><span>Vanjski trackeri</span><b>0</b></li>
+      <li><span>Tehnologija</span><b>Vanilla JS</b></li>
+      <li><span>Jezici</span><b>DE · EN · HR</b></li>
+      <li><span>Build</span><b>#1784827801</b></li>
+    </ul>
+    <p class="dev-panel-note">Mjereno uživo za ovu stranicu — bez marketinških fraza.</p>
+  </div>
+</div>
+
+<script src="../assets/js/main.js?v=1784827801"></script>
+</body>
+</html>
